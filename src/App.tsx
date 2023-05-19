@@ -30,6 +30,7 @@ export default function App() {
     const range = quillRef.current?.getEditor().getSelection(true);
     const index = range?.index + range.length;
     quillRef.current?.getEditor().insertEmbed(index, "image", imageUrl);
+    toggleModal("pictureModal");
   };
 
   return (

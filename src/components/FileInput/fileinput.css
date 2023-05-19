@@ -16,3 +16,14 @@ input[type='file'] {
     padding: 0.3rem 0.5rem;
     border-radius: 5px;
 }
+
+.error-text {
+    background-color: lighten(color(red, light), 35);
+    padding: 3px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: rgb(243, 93, 93);
+    display: flex;
+    align-items: center;
+}
