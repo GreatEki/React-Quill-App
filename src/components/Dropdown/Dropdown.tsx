@@ -5,7 +5,7 @@ import { MdBubbleChart } from "react-icons/md";
 import "./dropdown.css";
 
 interface Props {
-  toggleModal: () => void;
+  toggleModal: (modalName: string) => void;
 }
 
 const Dropdown: React.FC<Props> = (props) => {
@@ -25,14 +25,17 @@ const Dropdown: React.FC<Props> = (props) => {
         <div className="dropdown-menu">
           <h5 className="menu-caption">EMBEDS</h5>
           <ul>
-            <li className="menu-item" onClick={toggleModal}>
+            <li
+              className="menu-item"
+              onClick={() => toggleModal("pictureModal")}
+            >
               <AiIcon.AiFillPicture />
               <div>
                 <h5> Picture </h5>
                 <small className="small">Jpeg, png</small>
               </div>
             </li>
-            <li className="menu-item">
+            <li className="menu-item" onClick={() => toggleModal("videoModal")}>
               <AiIcon.AiFillVideoCamera />
               <div>
                 <h5> Video </h5>
