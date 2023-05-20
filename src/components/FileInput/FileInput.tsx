@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { PhotoValidator } from "src/util/photo-validator";
+import { PhotoValidator } from "../../util/photo-validator";
 import "./fileinput.css";
 
 interface Props {

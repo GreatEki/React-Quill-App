@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { Button } from "src/components";
+import { Button } from "../../components";
 
 import "./modal.css";
 

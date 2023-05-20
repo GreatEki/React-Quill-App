@@ -1,6 +1,6 @@
 import React from "react";
 import Select from "react-select";
-import { Options } from "src/interface";
+import { Options } from "../../interface";
 
 interface Props {
   handleChange: (selectedOptions: Options) => void;

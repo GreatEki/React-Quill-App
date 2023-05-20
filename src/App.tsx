@@ -1,6 +1,6 @@
-import { Editor, Dropdown, Modal, FileInput, VideoForm } from "src/components";
+import { Editor, Dropdown, Modal, FileInput, VideoForm } from "@/components";
 import { useState, useRef } from "react";
-import { Options } from "src/interface";
+import { Options } from "@/interface";
 
 import "./App.css";
 

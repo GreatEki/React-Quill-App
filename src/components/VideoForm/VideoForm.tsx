@@ -1,5 +1,5 @@
-import { Select, Input } from "src/components";
-import { Options } from "src/interface";
+import { Select, Input } from "../../components";
+import { Options } from "../../interface";
 import "./videoform.css";
 
 interface Props {
