@@ -48,7 +48,6 @@ export default function App() {
   };
 
   const handleSelectChange = (selectedOption: Options) => {
-    console.log(selectedOption);
     setLinks((prev) => ({ ...prev, type: selectedOption.value }));
   };
 
